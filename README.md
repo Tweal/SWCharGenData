@@ -5,7 +5,13 @@ This custom data includes descriptions for all of the talents and careers/specia
 
 ## Usage
 
-To use this data you will need to have launched the app at least once to create the roaming data. Once you have done so you will find a folder called `SWCharGen` in your roaming folder (found by typing `%appdata%` in a file browser). Simply replace the `DataCustom` file with the one from this project, or if you've already added some custom data simply copy it into that.
+To use this data you will need to have launched the app at least once to create the roaming data. Once you have done so you will find a folder called `SWCharGen` in your roaming folder (found by typing `%appdata%` in a file browser).
+
+### For the git inclined:
+You can simply clone this repo directly to that file (you will have to clone it with the name `SWCharGen` to ensure it goes into that folder and does not create a subfolder). You could then just `git pull` any updates released.
+
+### For the non git inclined:
+You can download a zip of the repo by clicking the green `Code` button at the top and then selecting `Download ZIP`. Once extracted you can simply copy the `DataCustom` file over to the roaming folder mentioned above. Replace any conflicts that may arrise. If you have already added your own custom items it should not interfere since each item is it's own file.
 
 ## Updates
 Updates will be infrequent and as my group needs them. I will not respond to requests for new items to be added. If you want to add items fork the repo and add them yourself, it is not hard to use OggDude's provided data editor to do so.
