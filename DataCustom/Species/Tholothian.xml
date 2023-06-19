@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>THOLOTHIAN</Key>
+  <Name>Tholothian</Name>
+  <Description>[H4]Tholothian[h4]
+</Description>
+  <Source Page="20">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>95</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>THOLOTHIANCH1</Key>
+      <Name>Culture</Name>
+      <Options>
+        <Option>
+          <Key>THOLOTHIANCH1OP1</Key>
+          <Name>Cultural Adopters</Name>
+          <Description>When making a social skill check to interact with non-Tholothians, Tholothians add automatic [ADVANTAGE] to the results.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>THOLOTHIANCH2</Key>
+      <Name>Origins</Name>
+      <Options>
+        <Option>
+          <Key>THOLOTHIANCH2OP1</Key>
+          <Name>Natural Roots</Name>
+          <Description>When making a check to heal strain while in a natural or wild setting. Tholothians heal one additional strain.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

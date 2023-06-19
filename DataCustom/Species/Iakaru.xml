@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>IAKARU</Key>
+  <Name>Iakaru</Name>
+  <Description>[H4]Iakaru[h4]
+</Description>
+  <Source Page="93">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>PILOTSP</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>IAKARUCH1</Key>
+      <Name>Brachiation</Name>
+      <Options>
+        <Option>
+          <Key>IAKARUCH1OP1</Key>
+          <Name>Brachiation</Name>
+          <Description>Iakaru suffer no terrain penalties to movement through jungles or similar environments. They also add [BOOST] to Athletics and Coodination checks related to climbing, swinging, and balancing.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

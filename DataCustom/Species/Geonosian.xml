@@ -1,0 +1,409 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GEONOSIAN</Key>
+  <Name>Geonosian</Name>
+  <Description>[H4]Geonosian[h4]
+[P][B]Physiology:[b]
+[P][B]Society:[b]
+[P][B]Homeworld:[b]
+[P][B]Language:[b]
+</Description>
+  <Source Page="12">Rise of the Seperatists</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>140</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>GEONOSIANCH1</Key>
+      <Name>Special Ability</Name>
+      <Options>
+        <Option>
+          <Key>GEONOSIANCH1OP1</Key>
+          <Name>One in Astrogation</Name>
+          <Description>Geonosians begin with one rank in a skill of their choice. They still may not train this skill above 2 at character creation</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>ASTRO</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP2</Key>
+          <Name>One in Athletics</Name>
+          <Description>Geonosians begin with one rank in a skill of their choice. They still may not train this skill above 2 at character creation</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>ATHL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP3</Key>
+          <Name>One in Brawl</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>BRAWL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP4</Key>
+          <Name>One in Charm</Name>
+          <Description>Geonosians begin with one rank in a skill of their choice. They still may not train this skill above 2 at character creation</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>CHARM</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP5</Key>
+          <Name>One in Coercion</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>COERC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP6</Key>
+          <Name>One in Computers</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>COMP</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP7</Key>
+          <Name>One in Cool</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>COOL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP8</Key>
+          <Name>One in Coordination</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>COORD</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP9</Key>
+          <Name>One in Core Worlds</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>CORE</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP10</Key>
+          <Name>One in Deception</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DECEP</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP11</Key>
+          <Name>One in Discipline</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DISC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP12</Key>
+          <Name>One in Education</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>EDU</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP13</Key>
+          <Name>One in Gunnery</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>GUNN</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP14</Key>
+          <Name>One in  Leadership</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>LEAD</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP15</Key>
+          <Name>One in Lightsaber</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>LTSABER</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP16</Key>
+          <Name>One in Lore</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>LORE</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP17</Key>
+          <Name>One in Mechanics</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>MECH</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP18</Key>
+          <Name>One in Medicine</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>MED</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP19</Key>
+          <Name>One in Melee</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>MELEE</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP20</Key>
+          <Name>One in Negotiation</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>NEG</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP21</Key>
+          <Name>One in Outer Rim</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>OUT</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP22</Key>
+          <Name>One in Perception</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>PERC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP23</Key>
+          <Name>One in Piloting - Planetary</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>PILOTPL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP24</Key>
+          <Name>One in Piloting - Space</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>PILOTSP</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP25</Key>
+          <Name>One in Ranged - Heavy</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>RANGHVY</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP26</Key>
+          <Name>One in Ranged - Light</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>RANGLT</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP27</Key>
+          <Name>One in Resilience</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>RESIL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP28</Key>
+          <Name>One in Skulduggery</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>SKUL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP29</Key>
+          <Name>One in Stealth</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>STEAL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP30</Key>
+          <Name>One in Streetwise</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>SW</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP31</Key>
+          <Name>One in Survival</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>SURV</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP32</Key>
+          <Name>One in Underworld</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>UND</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP33</Key>
+          <Name>One in Vigilance</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>VIGIL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP34</Key>
+          <Name>One in Warfare</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>WARF</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GEONOSIANCH1OP35</Key>
+          <Name>One in Xenology</Name>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>XEN</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>GEONOSIANCH2</Key>
+      <Name>Industrious</Name>
+      <Options>
+        <Option>
+          <Key>GEONOSIANCH2OP1</Key>
+          <Name>Industrious</Name>
+          <Description>A Geonosian who provides assistance adds [BOOST] to the check, in addition to the normal benefits of assistance, and the Geonosian heals 1 strain.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>GEONOSIANCH3</Key>
+      <Name>Winged</Name>
+      <Options>
+        <Option>
+          <Key>GEONOSIANCH3OP1</Key>
+          <Name>Winged</Name>
+          <Description>Geonosians can fly. (See the Flying sidebar in [B]Chapter VI: Conflict and Combat[b] in any [I]Star Wars[i] Roleplaying core rulebook.)</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

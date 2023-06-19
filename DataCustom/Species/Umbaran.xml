@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>UMBARAN</Key>
+  <Name>Umbaran</Name>
+  <Description>[H4]Umbaran[h4]
+[P][B]Physiology:[b]
+[P][B]Society:[b]
+[P][B]Homeworld:[b]
+[P][B]Language:[b]
+</Description>
+  <Source Page="15">Rise of the Seperatists</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>UMBARANCH1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>UMBARANCH1OP1</Key>
+          <Name>Special Abilities:</Name>
+          <Description>Umbarans begin the game with one rank in Deception. They still may not train Deception abovce rank 2 during chracter creation.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DISC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>UMBARANCH2</Key>
+      <Name>Boosts</Name>
+      <Options>
+        <Option>
+          <Key>UMBARANCH2OP1</Key>
+          <Name>Entrancing Gaze</Name>
+          <Description>Umbarans add [BOOST] to Charm, Deception, and Negotiation checks.</Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>CHARM</SkillKey>
+              <BoostCount>1</BoostCount>
+            </DieModifier>
+            <DieModifier>
+              <SkillKey>DECEP</SkillKey>
+              <BoostCount>1</BoostCount>
+            </DieModifier>
+            <DieModifier>
+              <SkillKey>NEG</SkillKey>
+              <BoostCount>1</BoostCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>UMBARANCH3</Key>
+      <Name>Setbacks</Name>
+      <Options>
+        <Option>
+          <Key>UMBARANCH3OP1</Key>
+          <Name>Shadow Dweller</Name>
+          <Description>When making skill checks, Umbarans remove up to [SETBACK][SETBACK] imposed due to darkness. Umbarans add [SETBACK] to all checks they make while in bright natural light, such as direct sunlight.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

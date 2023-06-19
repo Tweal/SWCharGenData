@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>VURK</Key>
+  <Name>Vurk</Name>
+  <Description>[H4]Vurk[h4]
+</Description>
+  <Source Page="20">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>NEG</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>VURKCH1</Key>
+      <Name>Amphibious</Name>
+      <Options>
+        <Option>
+          <Key>VURKCH1OP1</Key>
+          <Name>Amphibious</Name>
+          <Description>Curk can breathe underwater without penalty and never suffer movement penalties when traverling through water.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>VURKCH2</Key>
+      <Name>Cold Blooded</Name>
+      <Options>
+        <Option>
+          <Key>VURKCH2OP1</Key>
+          <Name>Cold Blooded</Name>
+          <Description>Vurks add [SETBACK] to all checks they make while in cold environments (in addition to any other penalties).</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

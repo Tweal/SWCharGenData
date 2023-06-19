@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>THISSPIASIAN</Key>
+  <Name>Thisspiasian</Name>
+  <Description>[H4]Thisspiasian[h4]
+</Description>
+  <Source Page="20">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>8</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>DISC</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>THISSPIASIANCH1</Key>
+      <Name>Meditation</Name>
+      <Options>
+        <Option>
+          <Key>THISSPIASIANCH1OP1</Key>
+          <Name>rest and Meditation</Name>
+          <Description>Thisspiasians need very little sleep to function. They only need to sleep for two hours to heal all strain they are suffering from, instead of for a full night (they cannot sleep multiple times in a day, however!). In addition, once per session Thisspiasians may spend ten minutes meditating; if they do so, they heal strain equal to twice their ranks in Discipline.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

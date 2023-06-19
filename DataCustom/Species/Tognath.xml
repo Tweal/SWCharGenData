@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TOGNATH</Key>
+  <Name>Tognath</Name>
+  <Description>[H4]Tognath[h4]
+</Description>
+  <Source Page="97">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>95</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>COORD</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+    <SkillModifier>
+      <Key>PERC</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>TOGNATHCH1</Key>
+      <Name>Primitive Nerves</Name>
+      <Options>
+        <Option>
+          <Key>TOGNATHCH1OP1</Key>
+          <Name>Primitive Nerves</Name>
+          <Description>Add [SETBACK][SETBACK] to Coercion checks targeting Tognath characters.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>TOGNATHCH2</Key>
+      <Name>Atmosphere</Name>
+      <Options>
+        <Option>
+          <Key>TOGNATHCH2OP1</Key>
+          <Name>Atmospheric Requirement</Name>
+          <Description>Tognaths must wear a specialized mask or breathing apparatus to breathe outside their native atmostphere. Tognath characters start the game with a breath mask and treat oxygen as a corrosive atmosphere with rating 5 (see the Envornmental Effects section of [b]Chapter VI: Conflict and Combat[b] in any of the Star Wars Roleplaying Core Rulebooks). However, they can survive in vacuum for up to five minutes before suffering its effects.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>TOGNATHCH3</Key>
+      <Name>Cyber Eyes</Name>
+      <Options>
+        <Option>
+          <Key>TOGNATHCH3OP1</Key>
+          <Name>Special Abilities</Name>
+          <Description>Cybernetic implants and specialized lenses for thier compound eyes grant Tognath characters one free rank each in Coordination and Perception. They may not train either skill beyond rank 2 at character creation. This set of cybernetics counts as 1 implant against a Tognath's limit on cybernetic implants.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <CyberneticsAdjust>-1</CyberneticsAdjust>
+</Species>

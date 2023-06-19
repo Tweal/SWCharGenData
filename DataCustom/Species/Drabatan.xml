@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DRABATAN</Key>
+  <Name>Drabatan</Name>
+  <Description>[H4]Drabatan[h4]
+</Description>
+  <Source Page="93">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>DRABATANCH1</Key>
+      <Name>Abilities</Name>
+      <Options>
+        <Option>
+          <Key>DRABATANCH1OP1</Key>
+          <Name>Charm</Name>
+          <Description>Drabatans begin the game with one rank in Charm. They still may not train Charm above rank 2 during character creation.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>CHARM</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>DRABATANCH1OP2</Key>
+          <Name>Leadership</Name>
+          <Description>Drabatans begin the game with one rank in Leadership. They still may not train Leadership above rank 2 during character creation.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>LEAD</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DRABATANCH2</Key>
+      <Name>Big Noise</Name>
+      <Options>
+        <Option>
+          <Key>DRABATANCH2OP1</Key>
+          <Name>Big Noise</Name>
+          <Description>When making a Leadership or Coercion check, Drabatans can spend [ADVANTAGE][ADVANTAGE] to affect one additional character not originally targeted by the check or affect targets at one range band further than normal.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>
