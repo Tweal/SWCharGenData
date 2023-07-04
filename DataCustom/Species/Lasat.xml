@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Key>LASSAT</Key>
+  <Key>LASAT</Key>
   <Name>Lasat</Name>
   <Description>[H4]Lasat[h4]
-</Description>
-  <Source Page="19">Allies and Adversaries</Source>
+Please see Allies and Adversaries for details.</Description>
+  <Source>Allies and Adversaries</Source>
   <Custom>AddedItem</Custom>
   <StartingChars>
     <Brawn>3</Brawn>
@@ -21,13 +21,12 @@
   </StartingAttrs>
   <OptionChoices>
     <OptionChoice>
-      <Key>LASSATCH1</Key>
-      <Name>Brawl or Knowledge (Lore)</Name>
+      <Key>LASAT2CH1</Key>
+      <Name>Skill</Name>
       <Options>
         <Option>
-          <Key>LASSATCH1OP1</Key>
-          <Name>Brawl</Name>
-          <Description>Lasat may begin the game with one rank in Brawl.</Description>
+          <Key>LASAT2CH1OP1</Key>
+          <Name>Brawl +1</Name>
           <SkillModifiers>
             <SkillModifier>
               <Key>BRAWL</Key>
@@ -36,9 +35,8 @@
           </SkillModifiers>
         </Option>
         <Option>
-          <Key>LASSATCH1OP2</Key>
-          <Name>Lore</Name>
-          <Description>Lasat may begin the game with one rank in Knowledge (Lore).</Description>
+          <Key>LASAT2CH1OP2</Key>
+          <Name>Knowledge (Lore) +1</Name>
           <SkillModifiers>
             <SkillModifier>
               <Key>LORE</Key>
@@ -49,13 +47,13 @@
       </Options>
     </OptionChoice>
     <OptionChoice>
-      <Key>LASSATCH2</Key>
-      <Name>Prehensile Feet</Name>
+      <Key>LASAT2CH2</Key>
+      <Name>Talent</Name>
       <Options>
         <Option>
-          <Key>LASSATCH2OP1</Key>
+          <Key>LASAT2CH2OP1</Key>
           <Name>Prehensile Feet</Name>
-          <Description>May move up a vertical surface as though it were horizontal.</Description>
+          <Description>Prehensile Feet: May move up a vertical surface as though it were horizontal.</Description>
         </Option>
       </Options>
     </OptionChoice>

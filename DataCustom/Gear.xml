@@ -7765,10 +7765,10 @@ Unusually for cybernetic implants, a biofeedback regulator achieves nothing for 
 [P]A biofeedback implant regulator increases the character's cybernetic implant cap by two (see page 173 of the [B]Edge of the Empire[b] Core Rulebook). A biofeedback regulator does not count toward the character's cybernetic implant cap. Biofeedback regulators cannot be installed on droids and characters can only have a single biofeedback regulator cybernetic installed.
     </Description>
     <Source Page="49">Special Modifications</Source>
-    <Custom>DescOnly</Custom>
+    <Custom>CustomItem</Custom>
     <Type>Cybernetics</Type>
     <Categories />
-    <Price>5000</Price>
+    <Price>3000</Price>
     <Rarity>8</Rarity>
     <BaseMods>
       <Mod>

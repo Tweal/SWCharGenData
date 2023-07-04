@@ -14332,6 +14332,43 @@ Lightfoils are small lightsabers with hilts comparable in size to those of shoto
     <Range>Engaged</Range>
   </Weapon>
   <Weapon>
+    <Key>EXOGLOVE</Key>
+    <Name>Exoglove</Name>
+    <Description>[H3]Exoglove[h3]
+</Description>
+    <Source Page="37">Gadgets and Gear</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Brawling</Type>
+    <Categories>
+      <Category>Bludgeoning Melee</Category>
+    </Categories>
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Price>2000</Price>
+    <Rarity>4</Rarity>
+    <BaseMods>
+      <Mod>
+        <Key>BR</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>As an action, a character may make an [B]Average ([DI][DI]) Ranged (Light)[b] check to secure the exoglove's grappling hook to an object within medium range.[BR]If successful, as a maneuver on their next turn, they may reel in the cord, pulling themselves to the object (or, if the object is unsecured and lighter than they are, pulling it to them).</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <SkillKey>BRAWL</SkillKey>
+    <DamageAdd>2</DamageAdd>
+    <Crit>4</Crit>
+    <SizeHigh>10</SizeHigh>
+    <RangeValue>wrEngaged</RangeValue>
+    <Qualities>
+      <Quality>
+        <Key>KNOCKDOWN</Key>
+      </Quality>
+    </Qualities>
+    <Range>Engaged</Range>
+  </Weapon>
+  <Weapon>
     <Key>MWC35C</Key>
     <Name>MWC-35C "Staccato Lightning" Repeating Cannon</Name>
     <Description>[H3]MWC-35C "Staccato Lightning" Repeating Cannon[h3]
@@ -14345,6 +14382,7 @@ A secondary firing mode fires a single-shot bolast of high power but requires pr
     <Categories>
       <Category>Portable Gunnery</Category>
       <Category>Laser</Category>
+      <Category>Ranged</Category>
     </Categories>
     <Encumbrance>5</Encumbrance>
     <HP>2</HP>
@@ -14390,6 +14428,7 @@ A secondary firing mode fires a single-shot bolast of high power but requires pr
     <Categories>
       <Category>Portable Gunnery</Category>
       <Category>Laser</Category>
+      <Category>Ranged</Category>
     </Categories>
     <Encumbrance>5</Encumbrance>
     <HP>2</HP>
@@ -14421,42 +14460,5 @@ A secondary firing mode fires a single-shot bolast of high power but requires pr
       </Quality>
     </Qualities>
     <Range>Medium</Range>
-  </Weapon>
-  <Weapon>
-    <Key>EXOGLOVE</Key>
-    <Name>Exoglove</Name>
-    <Description>[H3]Exoglove[h3]
-</Description>
-    <Source Page="37">Gadgets and Gear</Source>
-    <Custom>AddedItem</Custom>
-    <Type>Brawling</Type>
-    <Categories>
-      <Category>Bludgeoning Melee</Category>
-    </Categories>
-    <Encumbrance>2</Encumbrance>
-    <HP>1</HP>
-    <Price>2000</Price>
-    <Rarity>4</Rarity>
-    <BaseMods>
-      <Mod>
-        <Key>BR</Key>
-        <Count>1</Count>
-      </Mod>
-      <Mod>
-        <Count>1</Count>
-        <MiscDesc>As an action, a character may make an [B]Average ([DI][DI]) Ranged (Light)[b] check to secure the exoglove's grappling hook to an object within medium range.[BR]If successful, as a maneuver on their next turn, they may reel in the cord, pulling themselves to the object (or, if the object is unsecured and lighter than they are, pulling it to them).</MiscDesc>
-      </Mod>
-    </BaseMods>
-    <SkillKey>BRAWL</SkillKey>
-    <DamageAdd>2</DamageAdd>
-    <Crit>4</Crit>
-    <SizeHigh>10</SizeHigh>
-    <RangeValue>wrEngaged</RangeValue>
-    <Qualities>
-      <Quality>
-        <Key>KNOCKDOWN</Key>
-      </Quality>
-    </Qualities>
-    <Range>Engaged</Range>
   </Weapon>
 </Weapons>
